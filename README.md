@@ -1,6 +1,6 @@
 # javascript-patterns
 
-##Classes
+## Classes
 
 - Using a function
 - Using object literals
