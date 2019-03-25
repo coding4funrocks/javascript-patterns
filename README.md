@@ -5,6 +5,8 @@
 - Using a function
 - Using object literals
 - Singleton using a function
+- Prototypical inheritance
+- Closure
 
 ## Resources
 
