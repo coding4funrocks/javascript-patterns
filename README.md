@@ -4,7 +4,7 @@
 
 - Using a function
 - Using object literals
-- Singleton using a functions
+- Singleton using a function
 
 ## Resources
 
