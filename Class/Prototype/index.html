@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="app.js" defer></script>
+    <script src="greeting.js" defer></script>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+</html>
+<body>
+  <div class="container">
+    <h1 class="my-4">Class using prototypical inheritance</h1>
+    <hr />
+    <div class="row">
+      <form>
+        <div class="form-group">
+          <div class="col-sm">
+            <label for="nameInput">Name</label>
+            <input
+              type="name"
+              class="form-control"
+              id="nameInput"
+              placeholder="Enter your name"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <button class="btn btn-primary">Submit</button>
+      </div>
+      <div class="col-sm">
+        <h4 id="greetings"></h4>
+      </div>
+    </div>
+    <hr />
+    <div class="row">
+      <div class="col-sm">
+        <iframe
+          title="Code Example"
+          frameBorder="0"
+          scrolling="no"
+          width="350"
+          height="300"
+          src="./greeting.js"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</body>
